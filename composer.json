@@ -1,0 +1,34 @@
+{
+    "name": "xiaonan/web3-sdk",
+    "description": "潇楠 Web3哨兵 PHP SDK - 一个 Key 调用文本对话、文生图、文生视频、TTS、播客、市场分析等 20+ AI 功能",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "潇楠 Web3哨兵 实验室",
+            "email": "xiaonan@ming.store"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "XiaoNan\\Web3\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XiaoNan\\Web3\\Tests\\": "tests/"
+        }
+    },
+    "keywords": ["web3", "ai", "api", "tts", "image-generation", "video-generation", "sdk"],
+    "homepage": "https://www.ming.store",
+    "support": {
+        "docs": "https://www.ming.store/key/sdk_docs.php",
+        "source": "https://github.com/pingdj/xiaonan-web3-php"
+    }
+}
